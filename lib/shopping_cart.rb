@@ -29,4 +29,10 @@ class ShoppingCart
     total_number_of_products > @capacity
   end
 
+  def products_by_category(symbol)
+    @products.find_all do |product|
+      product.category == symbol
+    end
+  end
+
 end
