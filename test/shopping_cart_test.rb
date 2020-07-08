@@ -74,7 +74,7 @@ class ShoppingCartTest < Minitest::Test
     product4 = Product.new(:produce, 'apples', 0.99, '20')
 
     cart.add_product(product4)
-    
+
     assert_equal true, cart.is_full?
 
 
@@ -84,6 +84,5 @@ class ShoppingCartTest < Minitest::Test
 
   end
 
-  # A shopping cart is full if its total number of products exceeds its capacity.
 
 end
