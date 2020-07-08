@@ -1,7 +1,7 @@
 class Product
  #attr_reader
-  #def initialize(*arg)
+  def initialize(category, name, unit_price, quantity)
 
-  #end
+  end
 
 end
