@@ -20,7 +20,7 @@ require './lib/product'
 
 product = Product.new(:paper, 'toilet paper', 3.70, '10')
 
-#=> #<Product:0x00007fa53b9ca0a8 @category=:paper, @name="toilet paper", @quantity='10', @unit_price=3.70>
+ @category=:paper, @name="toilet paper", @quantity='10', @unit_price=3.70>
 
 product.category
 #=> :paper
@@ -149,17 +149,17 @@ require './lib/shopping_cart'
 
 cart = ShoppingCart.new("King Soopers", "30items")
 
-#=> #<ShoppingCart:0x00007fccd30375f8...>
+
 
 product1 = Product.new(:paper, 'toilet paper', 3.70, '10')
-#=> #<Product:0x00007fccd29b5720...>
+
 
 product2 = Product.new(:meat, 'chicken', 4.50, '2')   
-#=> #<Product:0x00007fccd2985f48...>
+
 
 product3 = Product.new(:paper, 'tissue paper', 1.25, '1')
 
-#=> #<Product:0x00007fccd2985f51...>
+
 
 cart.add_product(product1)
 
@@ -172,7 +172,7 @@ cart.percentage_occupied
 
 product4 = Product.new(:produce, 'apples', 0.99, '20')
 
-#=> #<Product:0x00007fccd2985f53...>
+
 
 cart.add_product(product4)
 
