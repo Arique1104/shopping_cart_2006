@@ -19,4 +19,8 @@ class Product
     false
   end
 
+  def hoard
+    
+  end
+
 end
