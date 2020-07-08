@@ -12,4 +12,11 @@ class ShoppingCart
     @products << product
   end
 
+  def details
+    detail_hash = Hash.new
+    detail_hash[:name] = @name
+    detail_hash[:capacity] = @capacity
+    detail_hash
+  end
+
 end
