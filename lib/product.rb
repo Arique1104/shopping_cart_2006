@@ -8,6 +8,7 @@ class Product
     @name = name
     @unit_price = unit_price
     @quantity= quantity.to_i
+    @hoarded = false
 
   end
 
@@ -16,11 +17,11 @@ class Product
   end
 
   def is_hoarded?
-    false
+    @hoarded
   end
 
   def hoard
-    
+    @hoarded = true
   end
 
 end
