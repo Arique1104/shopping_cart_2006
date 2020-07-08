@@ -15,4 +15,8 @@ class Product
     @unit_price * @quantity
   end
 
+  def is_hoarded?
+    false
+  end
+
 end
