@@ -40,4 +40,10 @@ class ShoppingCart
     total.round(2)
   end
 
+  def sorted_products_by_quantity
+    @products.sort do |a, b|
+      b.quantity <=> a.quantity
+    end
+  end
+
 end
