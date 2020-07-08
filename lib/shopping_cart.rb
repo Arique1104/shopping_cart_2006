@@ -1,7 +1,7 @@
 class ShoppingCart
  #attr_reader
-  #def initialize(*arg)
+  def initialize(name, capacity)
 
-  #end
+  end
 
 end
