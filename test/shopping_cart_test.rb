@@ -4,7 +4,7 @@ require "mocha/minitest"
 require './lib/product'
 require "./lib/shopping_cart"
 
-class ShoppingTest < Minitest::Test
+class ShoppingCartTest < Minitest::Test
 
   def test_it_exists
     cart = ShoppingCart.new("King Soopers", "30items")
